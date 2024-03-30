@@ -11,6 +11,8 @@
 		5EFC6DF72BB8679C004951EC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6DF62BB8679C004951EC /* ContentView.swift */; };
 		5EFC6DF92BB8679D004951EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC6DF82BB8679D004951EC /* Assets.xcassets */; };
 		5EFC6DFC2BB8679D004951EC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5EFC6DFB2BB8679D004951EC /* Preview Assets.xcassets */; };
+		5EFC6E032BB867DF004951EC /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6E022BB867DF004951EC /* Color.swift */; };
+		5EFC6E052BB8687D004951EC /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EFC6E042BB8687D004951EC /* MockData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +21,8 @@
 		5EFC6DF62BB8679C004951EC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5EFC6DF82BB8679D004951EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5EFC6DFB2BB8679D004951EC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5EFC6E022BB867DF004951EC /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		5EFC6E042BB8687D004951EC /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,9 +56,11 @@
 			isa = PBXGroup;
 			children = (
 				5EFC6DF42BB8679C004951EC /* SwiftUIGridsLazyVGridLazyHGridStaticGridApp.swift */,
+				5EFC6E042BB8687D004951EC /* MockData.swift */,
 				5EFC6DF62BB8679C004951EC /* ContentView.swift */,
 				5EFC6DF82BB8679D004951EC /* Assets.xcassets */,
 				5EFC6DFA2BB8679D004951EC /* Preview Content */,
+				5EFC6E022BB867DF004951EC /* Color.swift */,
 			);
 			path = SwiftUIGridsLazyVGridLazyHGridStaticGrid;
 			sourceTree = "<group>";
@@ -138,7 +144,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5EFC6DF72BB8679C004951EC /* ContentView.swift in Sources */,
+				5EFC6E052BB8687D004951EC /* MockData.swift in Sources */,
 				5EFC6DF52BB8679C004951EC /* SwiftUIGridsLazyVGridLazyHGridStaticGridApp.swift in Sources */,
+				5EFC6E032BB867DF004951EC /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
